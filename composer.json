@@ -1,0 +1,25 @@
+{
+    "name": "safronik/globals",
+    "type": "library",
+    "description": "Helper to receive global variables",
+    "keywords": ["globals","server","cookie","get","post","request","server"],
+    "homepage": "https://github.com/Safronik/project-globals",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Safronov",
+            "email": "r.safronik@yandex.ru",
+            "homepage": "https://github.com/Safronik/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "safronik/code-patterns": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Safronik\\Globals\\": "Globals"
+        }
+    }
+}
