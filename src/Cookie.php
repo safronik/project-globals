@@ -39,7 +39,7 @@ final class Cookie extends Variables{
     {
 	    $secure = ! is_null( $secure )
 		    ? $secure
-		    : in_array( Server::get( 'HTTPS' ), ['on', '1', true]) || Server::get( 'SERVER_PORT' ) == 443;
+		    : in_array( Server::get( 'HTTPS' ), [ 'on', '1', true ], true ) || Server::get( 'SERVER_PORT' ) == 443;
 
         // For PHP 7.3+ and above
 	    if ( version_compare( phpversion(), '7.3.0', '>=' ) ) {
