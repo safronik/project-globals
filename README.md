@@ -1,6 +1,6 @@
 <h1 align="center">safronik/globals</h1>
 <p align="center">
-    <strong>A PHP library contains database wrapper to simplify it's usage</strong>
+    <strong>A PHP library to ease gaining of PHP global variables</strong>
 </p>
 
 # About
