@@ -2,7 +2,7 @@
 
 namespace Safronik\Globals;
 
-use Safronik\CodePatterns\Custom\MultitonByClassname;
+use Safronik\CodePatterns\Generative\MultitonByClassname;
 
 /**
  * Variables
